@@ -1,6 +1,8 @@
 import cv2 
 import numpy as np 
 import sys
+import warnings 
+warnings.filterwarnings("ignore")
 
 def main():
     file_name = sys.argv[1]
