@@ -17,6 +17,7 @@ def main():
 
     print('照片大小: {}x{}'.format(img_size[0], img_size[1]))
     print('r/g/b : {}% /{}% /{}%'.format(r_percent, g_percent, b_percent))
+    input('按任意鍵繼續....')
 
 if __name__ == '__main__':
     main()
