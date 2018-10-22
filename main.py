@@ -41,8 +41,8 @@ def upload_file():
         return Response(json.dumps(result_list, indent=4), mimetype='application/json')
     return '''
     <!doctype html>
-    <title>Upload new File</title>
-    <h1>Upload new File</h1>
+    <title>RGB calculator</title>
+    <h1>RGB calculator</h1>
     <form action="/" method=post name="file" id="name" enctype=multipart/form-data>
       <p><input type=file multiple="" name=file>
          <input type=submit value=Upload>
